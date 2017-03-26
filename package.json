@@ -1,7 +1,7 @@
 {
-  "name": "foundation-sites-template",
+  "name": "Foundation-Sass-Backbone-for-Homepages",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "quickstart template for foundation project.",
   "main": "gulpfile.js",
   "devDependencies": {
     "gulp": "^3.9.0",
@@ -15,14 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-sites-template.git"
+    "url": "https://github.com/MariaHildebrandt/Foundation-Sass-Backbone-for-Homepages"
   },
-  "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
-  },
-  "author": "ZURB <foundation@zurb.com>",
-  "license": "MIT",
+  "author": "MariaHildebrandt <hildebrandt.maria@googlemail.com>",
   "private": true,
   "dependencies": {
     "gulp-autoprefixer": "^3.1.0"

@@ -86,7 +86,7 @@ body{
 
 /* Showcase */
 .showcase{
-  background: url('../img/showcase.jpg')center -940px  ;
+  background: url('../img/showcase.jpg')top left;
   background-size: certain;
   position: relative;
   min-height: 500px;
@@ -95,22 +95,12 @@ body{
     text-align: center;
     margin-top: 110px;
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    //padding-bottom: 20px;
+    font-weight: bolder;
   }
   h4{
     text-align: center;
     padding-bottom: 30px;
     font-weight: lighter;
-  }
-  button{
-    padding-left: 20px;
-    padding-right: 20px;
-    text-transform: uppercase;
-    font-size: 12px;
-    margin:auto;
-    display:block;
-    margin-top: 30px;
   }
   strong{
     color:lighten( $primary, 20% );
@@ -118,14 +108,12 @@ body{
   p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size:18px;
+    font-size:25px;
   }
 }
 
-
-
-/* Section A */
-.section-a{
+/* Section Introduction */
+.section-intro{
   margin-top:-0px;
   padding:50px 0;
   background:$pale;
@@ -147,39 +135,8 @@ body{
   }
 }
 
-/*Section Server*/
-.section-server{
-  background:$light-gray;
-  color:black;
-  display:inline-block;
-  font-size:18px;
-  h3{
-    padding-top:50px;
-  }
-  .desc{
-    margin-right: 60px;
-  }
-  img{
-   max-height: 400px;
-   width: auto;
-   float:left;
-   padding-right: 60px;
-   padding-bottom: 5px;
-  }
-}
-
-
-/* Section B */
-.section-b{
-  background:$dark-gray;
-  color:$white;
-  padding:50px 0;
-  text-align: center;
-  font-size:18px;
-}
-
-/* Section c */
-.section-c{
+/* Section Font Aweseome*/
+.section-fontaweseome{
   background:$primary;
   color:$white;
   padding:50px 0;
@@ -193,95 +150,11 @@ body{
   }
 }
 
-/* Für die Cloud entwicelt*/
-.section-descriptions{
-  background:$pale;
-  padding-top: 45px;
-  padding-bottom: 40px;
-  color:grey;
-  font-size:18px;
-  h3{
-    padding-bottom: 15px;
-  }
-  a, a:hover{
-    text-decoration: underline;
-    color:black;
-  }
-}
-
-/*ersten Reihe mit Modelle und Dokumentation */
-.section-inhalte{
-  color:$white;
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  font-size:18px;
-
-   a{
-     color:$white;
-     h4{
-       padding-top: 50px;
-       padding-left:40px;
-     }
-     p{
-       padding-left:40px;
-       padding-right: 290px;
-     }
-   }
-
-  .modelle{
-      background: url('../img/modelle.jpg') no-repeat 0px 0px;
-      background-position: center -170px;
-      width: 60%;
-      margin-right:5px;
-      float:left;
-  }
-  .dokumentation{
-      background: url('../img/dokumentation.jpg') no-repeat 0px 0px;
-      background-position: left bottom;
-  }
-}
-
-/*zweite Reihe mit Features und Dokumentation */
-.section-inhalte2{
-  color:$white;
-  display:flex;
-  flex-direction:row;
-  margin-top:5px;
-  justify-content: space-around;
-  font-size:18px;
-   a{
-     color:$white;
-     h4{
-       padding-top: 50px;
-       padding-left:40px;
-     }
-     p{
-       padding-left:40px;
-       padding-right: 290px;
-     }
-   }
-
-  .features{
-      background: url('../img/features.jpg') no-repeat 0px 0px;
-      background-position: center bottom;
-  }
-  .testen{
-      background: url('../img/testen.jpg') no-repeat 0px 0px;
-      background-position: left bottom;;
-      width: 60%;
-      margin-left:5px;
-      float:left;
-  }
-}
-
+/*form*/
 .section-contact{
   background: $dark-gray;
   color:$white;
   margin-top:5px;
-  .desc{
-    padding-top:20px;
-  }
   h1{
     padding-top:40px;
     text-align:center;
@@ -298,7 +171,6 @@ body{
   }
 }
 
-
 /*footer*/
 
 footer{
@@ -312,9 +184,6 @@ footer{
   a, a:hover{
     text-decoration: none;
     color:black;
-  }
-  .copyright{
-    font-size: 15px;
   }
   .fa{
     font-size: 19px;
