@@ -38,14 +38,10 @@ bower install
 
 #### Full View:
 <p>
-  <a href="https://postimg.org/image/c0a70uyan/">Home</a>,
-  <a href="https://postimg.org/image/97gzgtxy7/">Features</a>,
-  <a href="https://postimg.org/image/6stpa5733/">Modelle</a>
+  <a href="https://postimg.org/image/knrzsm1i7/">Index/Home</a>,
 </p>
 
 #### Preview:
 <p align="left">
-  <img src="https://s19.postimg.org/wkf0zce1v/home.png"/  width="280">
-  <img src="https://s19.postimg.org/72wmfqwbn/features.png"/  width="280">
-  <img src="https://s19.postimg.org/jk7vgngv7/modelle.png"/  width="280">
+  <img src="https://s19.postimg.org/dkk4czw2r/index.png"/  width="340">
 </p>
