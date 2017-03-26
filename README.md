@@ -7,6 +7,7 @@ Quick Start Template for Homepages with Foundation, Sass, Font-Awesome and NodeJ
 - [Font Awesome](http://fontawesome.io/)
 - [NodeJS](https://nodejs.org/en/) 
 - [License Images from Pexels.com](https://nodejs.org/en/) 
+- [Google Fonts Link](https://fonts.google.com/)
 
 ## Requirements
 
