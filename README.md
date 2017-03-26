@@ -1,43 +1,27 @@
-# Foundation for Sites Template
+# Foundation + Sass Backbone for Homepages
+Quick Start Template for Homepages with Foundation, Sass, Font-Awesome and NodeJS
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+## Includes
+- [Foundation](http://foundation.zurb.com/)
+- [Sass](http://foundation.zurb.com/sites/docs/v/5.5.3/sass.html)
+- [Font Awesome](http://fontawesome.io/)
+- [NodeJS](https://nodejs.org/en/) 
+- [License Images from Pexels.com](https://nodejs.org/en/) 
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+## Requirements
 
-## Installation
-
-To use this template, your computer needs:
-
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
+- [NodeJS](https://nodejs.org/en/) 
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
 ### Manual Setup
 
-To manually set up the template, first download it with Git:
+1.Download with Git:
 
 ```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
+git clone https://github.com/MariaHildebrandt/Foundation-Sass-Backbone-for-Homepages projectname
 ```
-
-Then open the folder in your command line, and install the needed dependencies:
+2.Open folder in command line and install all dependencies
 
 ```bash
 cd projectname
@@ -45,4 +29,22 @@ npm install
 bower install
 ```
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+3. `npm start` 
+- to start the Sass compiler
+- 'projectname' starts on default-Port: 3000 ->  http://127.0.0.1:3000/
+
+### Screenshots
+
+#### Full View:
+<p>
+  <a href="https://postimg.org/image/c0a70uyan/">Home</a>,
+  <a href="https://postimg.org/image/97gzgtxy7/">Features</a>,
+  <a href="https://postimg.org/image/6stpa5733/">Modelle</a>
+</p>
+
+#### Preview:
+<p align="left">
+  <img src="https://s19.postimg.org/wkf0zce1v/home.png"/  width="280">
+  <img src="https://s19.postimg.org/72wmfqwbn/features.png"/  width="280">
+  <img src="https://s19.postimg.org/jk7vgngv7/modelle.png"/  width="280">
+</p>
